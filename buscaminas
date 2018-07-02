@@ -6,12 +6,12 @@ def tupla_minada():
     print(lista)
     contador = 0
     minas = 0
-while minas < 3:
+while minas <3:
         mina = randint(0,5)
         if mina == 1:
             lista[contador] = "*!"
             minas = minas + 1
-        contador = contador + 1
+        contador = contador + 1 
         if contador == 20:
             contador = 0
     tupla_llena = tuple(lista)
